@@ -7,7 +7,7 @@ use Illuminate\Http\Request;
 class layoutcontroller extends Controller
 {
     public function home(){
-      $h1 = "WELCOME TO MY PERSONAL WEB LAVAREL";
+      $h1 = "WELCOME TO MY SITE";
     return view('components.home')->with('h1', $h1); // passing value to layouts child by with satetment
     }
     public function education(){

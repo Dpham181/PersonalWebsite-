@@ -14,3 +14,11 @@
 Route::get('/', 'layoutcontroller@home' );
 Route::get('/edu', 'layoutcontroller@education' );
 Route::get('/me', 'layoutcontroller@memo' );
+
+
+// for model databases resourcebundle_count
+
+// make controller and make model
+
+
+Route::resource('datas', 'mydatabase');
