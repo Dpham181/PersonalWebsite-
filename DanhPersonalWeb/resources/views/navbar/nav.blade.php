@@ -35,6 +35,7 @@
           <a class="dropdown-item" href="#">REACT JS</a>
           <a class="dropdown-item" href="#">LAVAREL PHP </a>
           <a class="dropdown-item" href="#">ANDROID DOCS</a>
+
         </div>
       </li>
 
@@ -43,11 +44,17 @@
 
     <form class="form-inline">
       <div class="md-form my-0">
+
+
         <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+
+
       </div>
     </form>
   </div>
   <!-- Collapsible content -->
+  <a class="btn-sm btn-outline-default btn-rounded" ripple-radius>Login</a>
 
 </nav>
+
 <!--/.Navbar-->

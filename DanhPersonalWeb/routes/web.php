@@ -12,7 +12,7 @@
 */
 
 Route::get('/', 'layoutcontroller@home' );
-Route::get('/edu', 'layoutcontroller@education' );
+//Route::get('/edu', 'layoutcontroller@education' );
 Route::get('/me', 'layoutcontroller@memo' );
 
 
@@ -22,3 +22,8 @@ Route::get('/me', 'layoutcontroller@memo' );
 
 
 Route::resource('datas', 'mydatabase');
+Route::resource('edu', 'coursescontroller');
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');

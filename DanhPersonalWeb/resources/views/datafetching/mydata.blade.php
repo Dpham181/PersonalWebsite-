@@ -7,8 +7,10 @@
 @foreach($datas as $d)
 <li> <a href="/datas/{{$d-> id}}">{{$d -> name}} </a></li>
 @endforeach
-{{$datas->links()}} 
+{{$datas->links()}}
  </ol>
 
 @endif
+
+
 @endsection

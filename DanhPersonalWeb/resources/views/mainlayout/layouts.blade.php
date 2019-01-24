@@ -23,10 +23,10 @@
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.7.0/js/mdb.min.js"></script>
     <link rel="stylesheet" href="{{asset('css/app.css')}}" >
   </head>
-    <body>
+    <body >
       @include('navbar.nav')
 
-      <div class="jumbotron aqua-gradient">
+      <div class="jumbotron aqua-gradient ">
         <div class="container">
             @yield('content')
           </div>
