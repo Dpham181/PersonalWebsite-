@@ -15,9 +15,11 @@ class CreateMydatabasesTable extends Migration
     {
         Schema::create('mydatabases', function (Blueprint $table) {
             $table->increments('id');
-            $table->string('name');
+            $table->string('CN');
+            $table->string('title');
             $table->timestamps();
         });
+        
     }
 
     /**

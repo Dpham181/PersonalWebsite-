@@ -24,20 +24,15 @@
     <link rel="stylesheet" href="{{asset('css/app.css')}}" >
   </head>
     <body>
-      <header>
       @include('navbar.nav')
-    </header>
-    <tbody>
-      <div class="jumbotron jumbotron-fluid">
+
+      <div class="jumbotron aqua-gradient">
         <div class="container">
             @yield('content')
           </div>
         </div>
-    </tbody>
 
-    <footer>
       @include('footer.footer')
-    </footer>
     </body>
 
 </html>

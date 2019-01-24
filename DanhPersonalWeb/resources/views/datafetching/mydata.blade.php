@@ -7,7 +7,7 @@
 @foreach($datas as $d)
 <li> <a href="/datas/{{$d-> id}}">{{$d -> name}} </a></li>
 @endforeach
-{{$datas->links()}} // paginate viewpager
+{{$datas->links()}} 
  </ol>
 
 @endif

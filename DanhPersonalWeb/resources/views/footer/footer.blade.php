@@ -1,4 +1,4 @@
-<footer class="page-footer font-small special-color-dark pt-4 ">
+<footer class="page-footer font-small blue pt-4 fixed-bottom">
 
     <!-- Footer Elements -->
     <div class="container">
@@ -37,8 +37,8 @@
     <!-- Footer Elements -->
 
     <!-- Copyright -->
-    <div class="footer-copyright text-center py-3">
-      <p> © 2018 Copyright: Lavarel Personal Website </p>
+    <div class="footer-copyright  text-center py-3">
+      <p> © 2019 Copyright: Lavarel Personal Website  </p>
       <p> Author: Danh Pham --- B.S Cal State Fullerton </p>
 
 
