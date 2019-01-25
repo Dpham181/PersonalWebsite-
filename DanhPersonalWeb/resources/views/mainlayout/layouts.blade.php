@@ -24,6 +24,7 @@
     <link rel="stylesheet" href="{{asset('css/app.css')}}" >
   </head>
     <body >
+
       @include('navbar.nav')
 
       <div class="jumbotron aqua-gradient ">

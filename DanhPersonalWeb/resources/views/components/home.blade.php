@@ -7,8 +7,8 @@
     <div class="text-white text-center py-5 px-4 my-5">
       <div>
   <img  height="200" width="200" src="{{asset('css/logo/danh.jpg')}}" class="rounded-circle" alt="woman avatar">
-        <h2 class="card-title h1-responsive pt-3 mb-5 font-bold"><strong> {{$h1}}</strong></h2>
-        <p class="mx-5 mb-5">Give a man a program, frustrate him for a day.
+        <h2 class="card-title animated bounceInDown slow h1-responsive pt-3 mb-5 font-bold"><strong> {{$h1}}</strong></h2>
+        <p class="mx-5 animated bounceInRight slow mb-5">Give a man a program, frustrate him for a day.
 Teach a man to program, frustrate him for a lifetime.
 <div class="spinner-grow text-primary" role="status">
 <span class="sr-only">Loading...</span>

@@ -1,8 +1,9 @@
 <!--Navbar-->
-<nav class="navbar navbar-expand-lg navbar-dark primary-color fixed-top">
+<header>
+<nav class="navbar navbar-expand-lg navbar-dark scrolling-navbar  fixed-top">
 
   <!-- Navbar brand -->
-  <a class="navbar-brand" href="#"><img height="42" width="42" src="{{asset('css/logo/mylogo.png')}}"></a>
+  <a class="navbar-brand" href="#"><img height="42" background-color:"none" width="42" src="{{asset('css/logo/mylogo.png')}}"></a>
 
   <!-- Collapse button -->
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#basicExampleNav"
@@ -16,25 +17,25 @@
     <!-- Links -->
     <ul class="navbar-nav mr-auto">
       <li class="nav-item active">
-        <a class="nav-link" href="/">Home
+        <a class="nav-link" href="/"> <i class="fas fa-home"></i> Home
           <span class="sr-only">(current)</span>
         </a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="/edu">My Education</a>
+        <a class="nav-link" href="/edu"> <i class="fas fa-user-graduate"></i> My Education</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="/me">My Life</a>
+        <a class="nav-link" href="/me"><i class="fas fa-heartbeat"></i> My Life</a>
       </li>
 
       <!-- Dropdown -->
       <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true"
-          aria-expanded="false">Tools</a>
+          aria-expanded="false"><i class="fas fa-tools"></i>Learning Tools</a>
         <div class="dropdown-menu dropdown-primary" aria-labelledby="navbarDropdownMenuLink">
-          <a class="dropdown-item" href="#">REACT JS</a>
-          <a class="dropdown-item" href="#">LAVAREL PHP </a>
-          <a class="dropdown-item" href="#">ANDROID DOCS</a>
+          <a class="dropdown-item" href="https://reactjs.org/">REACT JS</a>
+          <a class="dropdown-item" href="https://laravel.com/">LAVAREL PHP </a>
+          <a class="dropdown-item" href="https://developer.android.com/reference/org/w3c/dom/Document">ANDROID DOCS</a>
 
         </div>
       </li>
@@ -77,5 +78,5 @@
       @endif
 
 </nav>
-
+</header>
 <!--/.Navbar-->
