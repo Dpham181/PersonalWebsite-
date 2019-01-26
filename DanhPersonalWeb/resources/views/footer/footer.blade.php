@@ -1,7 +1,7 @@
-<footer class=" font-small mdb-color white-text blue-gradient">
+<footer class=" font-small mdb-color text-white blue-gradient">
 
     <!-- Footer Links -->
-    <div class="container text-center text-md-left">
+    <div class="container text-center text-white text-md-left">
 
       <!-- Grid row -->
       <div class="row">
@@ -125,10 +125,8 @@
       </div>
       <!-- Grid row -->
 
-    </div>
     <!-- Footer Links -->
 
-    <hr>
 
     <hr>
 
@@ -136,17 +134,17 @@
     <ul class="list-unstyled list-inline text-center">
       <li class="list-inline-item">
         <a href="https://www.facebook.com/danh.pham.940641" class="btn-floating btn-lg btn-fb mx-1">
-          <i  class="fab fa-facebook-f"> </i>
+          <i  class="fab fa-facebook-f fa-2x"> </i>
         </a>
       </li>
       <li class="list-inline-item">
         <a href="https://www.linkedin.com/in/danh-pham-86aa8a172/"class="btn-floating btn-li mx-1">
-          <i class="fab fa-linkedin-in"> </i>
+          <i class="fab fa-linkedin-in fa-2x"> </i>
         </a>
       </li>
       <li class="list-inline-item">
         <a href="https://github.com/Dpham181" class="btn-floating btn-lg btn-dribbble mx-1">
-          <i class="fab fa-github"> </i>
+          <i class="fab fa-github fa-2x"> </i>
         </a>
       </li>
     </ul>
@@ -155,7 +153,7 @@
     <!-- Copyright -->
     <div class="footer-copyright text-center py-3">
         <p> © 2019 Copyright: LARAVEL PERSONAL WEBSITE. </p>
-        <p class="animated rubberBand infinite" > Author: DANH PHAM. </p>
+        <p class="animated rubberBand" > Author: DANH PHAM. </p>
 
     </div>
     <!-- Copyright -->
