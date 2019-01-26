@@ -12,12 +12,12 @@
   </button>
 
   <!-- Collapsible content -->
-  <div class="collapse navbar-collapse" id="basicExampleNav">
+  <div class="collapse navbar-collapse animated lightSpeedIn " id="basicExampleNav">
 
     <!-- Links -->
     <ul class="navbar-nav mr-auto">
       <li class="nav-item active">
-        <a class="nav-link" href="/"> <i class="fas fa-home"></i> Home
+        <a class="nav-link " href="/"> <i class="fas fa-home"></i> Home
           <span class="sr-only">(current)</span>
         </a>
       </li>
@@ -43,7 +43,7 @@
     </ul>
     <!-- Links -->
 
-    <form class="form-inline">
+    <form class="animated fadeInUp delay-1s form-inline">
       <div class="md-form my-0">
 
 
@@ -54,7 +54,7 @@
     </form>
   </div>
       @if (Auth::guest())
-          <a   class="btn-sm btn-outline-default btn-rounded" ripple-radius href="{{ route('login') }}">Login</a>
+          <a   class="btn-sm btn-outline-default btn-rounded animated fadeInUp delay-1s" ripple-radius href="{{ route('login') }}">Login</a>
       @else
           <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
