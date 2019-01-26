@@ -3,7 +3,7 @@
 ## PersonalWeb - Danh Pham
 <h1> Component Used </h1>
 <ul>
-<li> LAVAREL PHP <li>
+<li> LAVAREL PHP </li>
 <li> MDBootstrap </li>
 <li> CSS HTML CUSTOM </li>
 <li> SQL  </li>
