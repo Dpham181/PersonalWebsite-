@@ -18,4 +18,4 @@ https://danhpham312.000webhostapp.com
 
 ## License
 
-licensed under the [MIT license](http://opensource.org/licenses/MIT).
+This project is licensed under the MIT License - see the [LICENSE.md]
