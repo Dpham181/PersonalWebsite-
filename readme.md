@@ -1,11 +1,12 @@
 
 
 ## PersonalWeb - Danh Pham
-<p> components </p>
+<h1> Component Used </h1>
 <ul>
 <li> LAVAREL PHP <li>
 <li> MDBootstrap </li>
 <li> CSS HTML CUSTOM </li>
+<li> SQL  </li>
 <li> 000webhost </li>
 </ul>
 
