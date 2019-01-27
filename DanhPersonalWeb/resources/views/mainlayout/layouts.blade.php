@@ -32,7 +32,6 @@
             @yield('content')
           </div>
         </div>
-
       @include('footer.footer')
     </body>
 

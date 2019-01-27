@@ -1,4 +1,4 @@
-<footer class=" font-small mdb-color text-white blue-gradient">
+<footer class=" font-small mdb-color text-white blue darken-4" >
 
     <!-- Footer Links -->
     <div class="container text-center text-white text-md-left">
