@@ -15,7 +15,7 @@
 
                                 @if ($errors->has('email'))
                                     <span class="help-block">
-                                        <strong>{{ $errors->first('email') }}</strong>
+                                        <strong style="color:red;">{{ $errors->first('email') }}</strong>
                                     </span>
                                 @endif
                             </div>
@@ -29,7 +29,7 @@
 
                                 @if ($errors->has('password'))
                                     <span class="help-block">
-                                        <strong>{{ $errors->first('password') }}</strong>
+                                        <strong style="color:red;">{{ $errors->first('password') }}</strong>
                                     </span>
                                 @endif
                             </div>
@@ -54,5 +54,8 @@
                             </div>
                         </div>
                     </form>
+
+
+
 
 @endsection

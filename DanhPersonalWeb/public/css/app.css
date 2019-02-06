@@ -1,22 +1,20 @@
-
+body{
+background-image: url("/css/logo/2.png");
+}
 footer{
+  margin-top: 100px;
   position: 0;
 }
-.jumbotron{
 
-  margin-bottom: 15px;
+header{
+  margin-bottom: 100px;
 }
-.container{
-  margin-top: 20px;
-}
-
-
 .btn .fa {
   margin-left: 3px;
 }
 
 .top-nav-collapse {
-  background-color: #424f95 !important;
+  background-color: #0d47a1 !important;
 }
 
 .navbar:not(.top-nav-collapse) {
@@ -25,7 +23,7 @@ footer{
 
 @media (max-width: 991px) {
   .navbar:not(.top-nav-collapse) {
-    background: #424f95 !important;
+    background: #0d47a1 !important;
   }
 }
 

@@ -13,7 +13,7 @@
 
 Route::get('/', 'layoutcontroller@home' );
 //Route::get('/edu', 'layoutcontroller@education' );
-Route::get('/me', 'layoutcontroller@memo' );
+//Route::get('/me', 'layoutcontroller@memo' );
 
 
 // for model databases resourcebundle_count
@@ -23,6 +23,7 @@ Route::get('/me', 'layoutcontroller@memo' );
 
 Route::resource('datas', 'mydatabase');
 Route::resource('edu', 'coursescontroller');
+Route::resource('life', 'lifecontroller');
 
 Auth::routes();
 

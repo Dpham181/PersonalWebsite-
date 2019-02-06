@@ -104,7 +104,7 @@
 
           <ul class="list-unstyled">
             <li>
-              <p>LAVAREL PHP</p>
+              <p>LAVAREL PHP  </p>
             </li>
             <li>
               <p>CSS, HTML</p>
@@ -128,8 +128,7 @@
     <!-- Footer Links -->
 
 
-    <hr>
-
+<hr>
     <!-- Social buttons -->
     <ul class="list-unstyled list-inline text-center">
       <li class="list-inline-item">
@@ -149,11 +148,15 @@
       </li>
     </ul>
     <!-- Social buttons -->
+</hr>
 
+<hr>
     <!-- Copyright -->
     <div class="footer-copyright text-center py-3">
-        <p> © 2019 Copyright: LARAVEL PERSONAL WEBSITE. </p>
-        <p class="animated rubberBand" > Author: DANH PHAM. </p>
+        <p> © 2019 Copyright: danhpham.website - All Rights Reserved </p>
+        <p class="animated rubberBand" > Developer: DANH C PHAM - B.S </p>
+        <p class="animated rubberBand" > Contact at: 1-714-675-1702 </p>
+        <p class="animated rubberBand" > Email: danhpham312@gmail.com </p>
 
     </div>
     <!-- Copyright -->
